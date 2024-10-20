@@ -1,0 +1,17 @@
+name: ml
+channels:
+  - conda-forge
+dependencies:
+  - python<=3.12
+  - jupyter
+  - jupyterlab
+  - netcdf4
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - tqdm
+  - xarray
+  - pytorch
+  - scikit-learn
+
