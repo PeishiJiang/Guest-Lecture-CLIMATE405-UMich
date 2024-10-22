@@ -1,6 +1,6 @@
 # Guest lecture: CLIMATE405 at the University of Michigan 
 
-Course materials for the guest lecture "Machine Learning Application in Hydrology" of [CLIMATE405 at the University of Michigan](https://github.com/mombadi/umich-climate405).
+Course materials for the guest lecture "Machine Learning Applications in Hydrology" of [CLIMATE405 at the University of Michigan](https://github.com/mombadi/umich-climate405).
 
 ## Repo Structure
 ```
