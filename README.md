@@ -1,6 +1,6 @@
 # Guest lecture: CLIMATE405 at the University of Michigan 
 
-Course materials for the guest lecture "Machine Learning Application in Hydrology" of CLIMATE405 at the University of Michigan.
+Course materials for the guest lecture "Machine Learning Application in Hydrology" of [CLIMATE405 at the University of Michigan](https://github.com/mombadi/umich-climate405).
 
 ## Repo Structure
 ```
@@ -20,23 +20,22 @@ Course materials for the guest lecture "Machine Learning Application in Hydrolog
 - `README.md`: the readme file.
 
 
-## Execute the jupyter notebook
-### Step 1 -- Download conda and install the dependencies
-To get started download [miniconda](https://docs.conda.io/en/latest/miniconda.html), and then use the `conda` command to create an python virtual environment:
+## Execute the Jupyter Notebook
+The notebook [rainfall_runoff_modeling.ipynb](./rainfall_runoff_modeling.ipynb) contains an example of developing a rainfall-runoff model using LSTM. Please follow the instructions below to execute the notebook.
 
+- **Step 1:** get started download [miniconda](https://docs.conda.io/en/latest/miniconda.html), and then use the `conda` command to create an python virtual environment:
+```sh
     conda env create -f environment.yml
+```
 
-You can find the `environment.yml` file in this repository.
-
-### Step 2 -- Open the notebooks through Jupyter Lab
-Now launch an instance of jupyterlab from the command line:
-
+- **Step 2:** Now launch an instance of jupyterlab from the conda virtual environment:
+```sh
+    conda activate ml
     jupyter lab
-
+```
 A browser window will start up, and you can navigate to the notebook `rainfall_runoff_modeling.ipynb`.
 
-### Step 3 -- Run notebook
-Run the notebook cell by cell.
+- **Step 3:** Run the notebook `rainfall_runoff_modeling.ipynb` cell by cell.
 
 
 ## Contacts
