@@ -20,7 +20,7 @@ Course materials for the guest lecture "Machine Learning Applications in Hydrolo
 - `README.md`: the readme file.
 
 
-## Execute the Jupyter Notebook
+## Executing the Jupyter Notebook
 The notebook [rainfall_runoff_modeling.ipynb](./rainfall_runoff_modeling.ipynb) contains an example of developing a rainfall-runoff model using LSTM. Please follow the instructions below to execute the notebook.
 
 - **Step 1:** get started download [miniconda](https://docs.conda.io/en/latest/miniconda.html), and then use the `conda` command to create an python virtual environment:
